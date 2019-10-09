@@ -1,0 +1,38 @@
+.loadingIcon {
+    position: absolute;
+    display: block;
+    top: calc((100% - 150px) / 2);
+    left: calc((100% - 150px) / 2);
+    width: 150px;
+    height: 150px;
+    border: 10px solid #2693E0;
+    border-bottom: #ffffff 10px solid;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%); /* IE 9 */
+    -o-transform:translateY(-50%) translateX(-50%); /* Opera */
+    -moz-transform:translateY(-50%) translateX(-50%); /* Firefox */
+    -webkit-animation: load 1.1s infinite linear;
+}
+@-webkit-keyframes load {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.loadingText {
+    position: absolute;
+    display: block;
+    top: calc((100% + 150px) / 2 + 100px);
+    left: calc(50% + 50px);
+    width: 150px;
+    height: 150px;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%); /* IE 9 */
+    -o-transform:translateY(-50%) translateX(-50%); /* Opera */
+    -moz-transform:translateY(-50%) translateX(-50%); /* Firefox */
+}
