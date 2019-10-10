@@ -88,7 +88,7 @@ input, select {
   display: none;
 }
 .select div {
-  width: 100%;
+  /*width: 100%;*/
 }
 .bg-black {
   background: #111111;
@@ -138,5 +138,18 @@ input, select {
 .footer .tel img {
   padding: 10px 0 0 10px;
   width: 100px;
+}
+
+
+@media (max-width: 768px) {
+.mainHeader[data-v-a987eafc] {
+        background-color: #ffffff;
+}
+.mainContent[data-v-a987eafc] {
+        margin-top:50px!important;
+}
+}
+.mainContent[data-v-a987eafc] {
+    margin-top:80px;
 }
 
