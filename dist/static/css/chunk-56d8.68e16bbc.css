@@ -1,0 +1,38 @@
+@media (max-width: 1100px) {
+.story-img {
+    height: 600px !important;
+    background: url(../../static/img/story.c5396d5.jpg) no-repeat !important;
+    background-size: 100% 100%;
+}
+.story {
+    display: block !important;
+}
+}
+.story-img {
+  height: 1050px;
+  background: url(../../static/img/story2.08fa276.jpg) no-repeat center;
+  background-size: 100% 100%;
+}
+.story {
+  display: none;
+  margin-top: -5px;
+  background: #d2d3d5;
+}
+.story h1 {
+  font-size: 34px;
+  padding: 50px 0 30px 0;
+}
+.story h3 {
+  font-size: 24px;
+  padding: 10px 0;
+}
+.story p {
+  line-height: 30px;
+}
+.story .no-indent {
+  text-indent: 0;
+}
+.story:last-child {
+  padding-bottom: 50px;
+}
+
