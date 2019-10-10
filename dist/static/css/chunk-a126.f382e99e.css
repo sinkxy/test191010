@@ -1,0 +1,17 @@
+.article-item {
+  background-color: #d2d3d5;
+  padding-bottom: 50px;
+  line-height: 30px;
+}
+.article-item h1 {
+  font-size: 34px;
+  padding: 50px 0;
+}
+.article-item h3 {
+  font-size: 24px;
+  padding: 40px 0 15px 0;
+}
+.article-item p {
+  margin-top: 15px;
+}
+
